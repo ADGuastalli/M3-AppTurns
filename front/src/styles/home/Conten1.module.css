@@ -1,0 +1,20 @@
+.conteiner {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.img {
+  width: 40rem;
+  height: 20rem;
+  border-radius: 2px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.parrafo {
+  text-align: right;
+  margin: 0px 30px 0px 0px;
+  font-size: 2rem;
+  color: white;
+}

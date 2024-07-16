@@ -1,0 +1,47 @@
+.turno {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow: auto;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(46, 116, 201, 0.116);
+  box-shadow: 0 0 10px black;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h4 {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.active {
+  color: green;
+}
+
+.cancelled {
+  color: red;
+}
+
+.button {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 8px black;
+  font-family: "Special Elite", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: black;
+}
+
+.button:hover {
+  background-color: rgba(43, 43, 43, 0.57);
+  color: aliceblue;
+  box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+}

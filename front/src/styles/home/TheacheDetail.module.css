@@ -1,0 +1,44 @@
+.conteiner {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Agrega transparencia al fondo */
+}
+
+.modalContent {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: rgba(30, 0, 255, 0.881);
+  box-shadow: 0 0 100px rgba(0, 16, 243, 0.732);
+  font-size: 1.9rem;
+  font-family: "Special Elite", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.button {
+  cursor: pointer;
+  margin: 5px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 5px black;
+  font-family: "Special Elite", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5vw;
+  width: 14rem;
+  height: 4rem;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: rgb(43, 43, 43);
+  color: aliceblue;
+  box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+}

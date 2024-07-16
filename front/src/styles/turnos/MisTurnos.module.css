@@ -1,0 +1,19 @@
+.conteiner {
+  background-image: url("../../assets/fondoLogin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.h1 {
+  font-size: 5rem;
+  margin: 0px;
+  padding-bottom: 0px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  text-align: center;
+}

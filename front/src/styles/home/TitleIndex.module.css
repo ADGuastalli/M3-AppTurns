@@ -1,0 +1,7 @@
+.conteiner {
+  background-image: url("../../assets/fondo1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20rem;
+}
