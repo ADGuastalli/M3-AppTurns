@@ -23,7 +23,7 @@ const UnicoTurno = ({ turn }) => {
         )
       ) {
         const response = await axios.put(
-          `http://localhost:3000/appointments/cancel/${localTurn.id}`
+          `http://localhost:5000/appointments/cancel/${localTurn.id}`
         );
         dispatch(cancelTurn(response.data));
         alert(

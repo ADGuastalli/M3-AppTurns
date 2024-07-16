@@ -68,13 +68,12 @@ const Register = () => {
       try {
         const { confirmPassword, ...userDataWithoutConfirm } = userData;
         const response = await axios.post(
-          "http://localhost:3000/users/register",
+          "http://localhost:5000/users/register",
           userDataWithoutConfirm
         );
         console.log(response.data);
         dispatch(registerUser(response.data));
 
-        // Guardar los datos del usuario en el almacenamiento local
         localStorage.setItem("userData", JSON.stringify(response.data));
 
         alert(`Registro con exito =) Ahora puedes iniciar sesión`);

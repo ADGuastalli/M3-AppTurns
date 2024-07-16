@@ -38,7 +38,7 @@ function Login() {
     } else {
       try {
         const response = await axios.post(
-          "http://localhost:3000/users/login",
+          "http://localhost:5000/users/login",
           userData
         );
         console.log("User data from login:", response.data);

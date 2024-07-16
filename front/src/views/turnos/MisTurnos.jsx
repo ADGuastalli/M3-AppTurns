@@ -13,7 +13,7 @@ const MisTurnos = () => {
   const [turns, setTurns] = useState([]);
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/appointments/${id}`)
+      .get(`http://localhost:5000/appointments/${id}`)
       .then((res) => {
         setTurns(res.data);
         console.log(res.data);

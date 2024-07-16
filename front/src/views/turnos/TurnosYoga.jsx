@@ -72,7 +72,7 @@ function TurnosYoga() {
         console.log(newTurnoData);
         // Enviar la solicitud POST al backend con los nuevos datos del turno
         const response = await axios.post(
-          "http://localhost:3000/appointments/schedule",
+          "http://localhost:5000/appointments/schedule",
           newTurnoData
         );
         console.log(response.data);
